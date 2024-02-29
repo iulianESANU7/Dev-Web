@@ -27,24 +27,24 @@
 
     //Ex4
     function chiffresHexa() {
-        $r = "<ul>";
+        $r = "<ul>\n";
         for ( $i = 0; $i < 16; $i++) {
-            $r .= "<li>0x" . dechex($i) . "</li>";
+            $r .= "\t\t\t<li>0x" . dechex($i) . "</li>\n";
         }
-        return $r . "</ul>";
+        return $r . "\t\t</ul>\n";
     }
 
     //Ex5
     function tabConversion() : string {
-        $r = "<table>";
-        $r .= "<caption>Illustration 1 : conversion bases 2, 8, 10, 16.</caption>";
-        $r .= "<thead><tr><th>binaire</th><th>octa</th><th>décimal</th><th>hexadécimal</th></tr></thead><tbody>";
+        $r = "<table>\n";
+        $r .= "\t\t\t<caption>Illustration 1 : conversion bases 2, 8, 10, 16.</caption>\n";
+        $r .= "\t\t\t<thead>\n\t\t\t\t<tr><th>binaire</th><th>octa</th><th>décimal</th><th>hexadécimal</th></tr>\n\t\t\t</thead>\n\t\t\t<tbody>\n";
 
         for ($i = 0; $i <= 17; $i++) {
-            $r .= "<tr><td>" . sprintf("%08b", $i) . "</td><td>" . decoct($i) . "</td><td>$i</td><td>". strtoupper(str_pad(dechex($i), 2, "0", STR_PAD_LEFT)) . "</td></tr>";
+            $r .= "\t\t\t\t<tr><td>" . sprintf("%08b", $i) . "</td><td>" . decoct($i) . "</td><td>$i</td><td>". strtoupper(str_pad(dechex($i), 2, "0", STR_PAD_LEFT)) . "</td></tr>\n";
         }
 
-        return $r . "</tbody></table>";
+        return $r . "\t\t\t</tbody>\n\t\t</table>\n";
     }
 
     //ascii table 
