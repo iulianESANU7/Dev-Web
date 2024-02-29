@@ -19,7 +19,7 @@ require './include/header.inc.php';
 ?>
 
 <?php
-$lastUpdate = "2024-02-29";
-$creation = "2024-02-12";
+$lastUpdate = "2024-03-01";
+$creation = "2024-02-29";
 require './include/footer.inc.php';
 ?>
