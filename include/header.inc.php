@@ -37,6 +37,7 @@ if (isset($article)) {
 ?>
 
 <nav>
+    <h2>Navigation</h2>
     <ul>
         <li><a href="./td5.php">Td5</a></li>
         <li><a href="./td6.php">Td6</a></li>
