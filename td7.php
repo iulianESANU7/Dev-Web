@@ -2,7 +2,7 @@
 $title = "TD7";
 require './include/header.inc.php';
 ?>
-blaaaaaaaaaaaaaaaa
+
 <?php
 $lastUpdate = "2024-03-01";
 $creation = "2024-03-01";
