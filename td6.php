@@ -101,14 +101,15 @@ $style =
 
     #menu {
         font-family: \"Arial\";
+		margin: 20px;
         position: fixed;
         right: 0;
         top: 0;
         width: 200px;
-        height: 100%;
+        height: 200px%;
         overflow: auto;
         padding: 10px;
-        background-color: black;
+        background-color: #111;
         color: white;
     }
 
