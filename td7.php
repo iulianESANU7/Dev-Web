@@ -1,6 +1,7 @@
 <?php
 $title = "TD7";
 require './include/header.inc.php';
+require_once './include/functions.inc.php';
 ?>
 
 <?php

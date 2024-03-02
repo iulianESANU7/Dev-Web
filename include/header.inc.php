@@ -9,7 +9,7 @@
         href="./images/favicon.ico"/>
     <link rel="stylesheet" 
           type="text/css"
-          href="./css/styles.css"/>
+          href="./styles.css"/>
     <?php
     if (isset($style)) {
         echo $style;

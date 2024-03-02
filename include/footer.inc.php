@@ -3,7 +3,7 @@
 
 <footer>
     <address>Auteur : Iulian ESANU
-             Contact : <a id="lienPbContr" href="mailto:20iulian04@gmail.com">20iulian04@gmail.com</a>
+             Contact : <a class="lienPbContr" href="mailto:20iulian04@gmail.com">20iulian04@gmail.com</a>
     </address>
     <time datetime="<?php echo $lastUpdate?>">Date de derniere mise a jour : <?php 
                                                                                 $lud = new DateTime($lastUpdate);

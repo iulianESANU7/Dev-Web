@@ -12,7 +12,7 @@ $title = "Bienvenu sur ma page !";
 $article = 
 "<article>
     <h2>Introduction</h2>
-    <p>Cette page est faite dans le contexte des TD du module \"DevWeb\" pendant mon S4 a <a id=\"lienPbContr\" href=\"https://www.cyu.fr/\">CY Cergy Paris Universite</a>. 
+    <p>Cette page est faite dans le contexte des TD du module \"DevWeb\" pendant mon S4 a <a class=\"lienPbContr\" href=\"https://www.cyu.fr/\">CY Cergy Paris Universite</a>. 
         Elle permet de visiter les pages specifiques de chaque TD. N'hesitez pas a y faire un tour!</p>
 </article>";
 require './include/header.inc.php';

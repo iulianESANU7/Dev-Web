@@ -53,16 +53,14 @@ nav ul a:hover {
     background-color: #444;
 }
 
-#lienPbContr:link{
+.lienPbContr:link{
 	font-weight: bold;
 	color: #ccc
-
 }
 
-#lienPbContr:visited{
+.lienPbContr:visited{
 	font-weight: bold;
 	color: #444
-
 }
 
 article {
