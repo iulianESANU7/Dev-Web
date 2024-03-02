@@ -126,9 +126,9 @@ require './include/header.inc.php'
     <div id="menu">
         <h2>Menu</h2>
         <ul>
-            <li><a href="#ex1.1">Exercice 1.1</a></li>
-            <li><a href="#ex1.2">Exercice 1.2</a></li>
-            <li><a href="#ex2">Exercice 2</a></li>
+            <li><a id="lienPbContr" href="#ex1.1">Exercice 1.1</a></li>
+            <li><a id="lienPbContr" href="#ex1.2">Exercice 1.2</a></li>
+            <li><a id="lienPbContr" href="#ex2">Exercice 2</a></li>
 
         </ul>
     </div>
