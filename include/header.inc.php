@@ -42,6 +42,7 @@ if (isset($article)) {
         <li><a href="./td5.php">Td5</a></li>
         <li><a href="./td6.php">Td6</a></li>
         <li><a href="./td7.php">Td7</a></li>
+		<li><a href="./td8.php">Td8 (en construction)</a></li>
     </ul>
 </nav>
 

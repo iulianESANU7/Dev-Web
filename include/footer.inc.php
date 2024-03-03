@@ -13,6 +13,8 @@
                                                                     $cd = new DateTime($creation);
                                                                     echo $cd->format('j F Y');
                                                                 ?></time>
+
+	<p>Retournez a l'accueil en cliquant <a class="lienPbContr" href = './index.php'>ici</a> ou bien sur le logo principal de la page.</p>
 </footer>
 
 </body>
